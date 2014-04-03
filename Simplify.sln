@@ -64,6 +64,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplify.String", "Simplify
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplify.String.Tests", "Simplify.String.Tests\Simplify.String.Tests.csproj", "{564B187E-5E37-49F8-B8E8-17081D470A36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplify.Web.Mvc", "Simplify.Web.Mvc\Simplify.Web.Mvc.csproj", "{F8FEC768-94F2-4809-972E-BF7637E3DAEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -162,6 +164,10 @@ Global
 		{564B187E-5E37-49F8-B8E8-17081D470A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{564B187E-5E37-49F8-B8E8-17081D470A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{564B187E-5E37-49F8-B8E8-17081D470A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8FEC768-94F2-4809-972E-BF7637E3DAEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FEC768-94F2-4809-972E-BF7637E3DAEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FEC768-94F2-4809-972E-BF7637E3DAEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FEC768-94F2-4809-972E-BF7637E3DAEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
