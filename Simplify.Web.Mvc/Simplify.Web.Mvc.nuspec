@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+	<metadata>
+		<id>Simplify.Web.Mvc</id>
+		<version>1.0.0</version>
+		<title>Simplify.Web.Mvc</title>
+		<authors>Alexander Krylkov</authors>
+		<owners>Alexander Krylkov</owners>
+		<projectUrl>https://github.com/i4004/Simplify/tree/master/Simplify.Web.Mvc</projectUrl>
+		<iconUrl>https://raw2.github.com/i4004/Simplify/master/Images/Icon.png</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>ASP.NET MVC additional functionality, such as localizable razor templates files.</description>
+		<summary>ASP.NET MVC additional functionality.</summary>
+		<releaseNotes></releaseNotes>
+		<copyright>Licensed under LGPL</copyright>
+		<language>en-US</language>
+		<tags>ASP.NET MVC</tags>
+		<dependencies>
+			<group targetFramework=".NETFramework4.5.1">
+				<dependency id="Microsoft.AspNet.Mvc" version="5.1.1" />
+				<dependency id="Microsoft.AspNet.Razor" version="3.1.2" />
+				<dependency id="Microsoft.AspNet.WebPages" version="3.1.2" />
+				<dependency id="Microsoft.Web.Infrastructure" version="1.0.0.0" />
+			</group>
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="bin\release\Simplify.Web.Mvc.dll" target="lib\net451" />
+		<file src="bin\release\Simplify.Web.Mvc.xml" target="lib\net451" />
+	</files>
+</package>
